@@ -34,7 +34,8 @@ git clone https://github.com/yourusername/gemini-flash-api.git
 cd gemini-flash-api
 
 # 3️⃣ Install all dependencies
-npm install
+npm init -y
+npm install express dotenv cors @google/genai
 
 # 4️⃣ Create an environment file
 cp .env.example .env
